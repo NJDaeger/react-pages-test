@@ -1,4 +1,6 @@
 const Login = () => {
+
+
     return (
         <div className='modal columns is-flex-mobile p-5'>
             <div className="modal-card card">
@@ -9,7 +11,8 @@ const Login = () => {
                         <input type="password" className="field input is-primary" placeholder="Password"/>
                     </div>
                     <div className="content control">
-                        <button className="button is-primary is-fullwidth">Login</button>
+                        <a href="home/" className="button is-primary is-fullwidth">Login</a>
+                        {/* <button onClick={goHome} className="button is-primary is-fullwidth">Login</button> */}
                     </div>
                 </div>
             </div>
